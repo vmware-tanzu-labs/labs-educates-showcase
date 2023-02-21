@@ -1,0 +1,23 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: "lab-virtual-cluster"
+spec:
+  title: "Virtual Cluster"
+  description: "Overview of optional virtual Kubernetes cluster."
+  workshop:
+    files:
+    - image:
+        url: "$(image_repository)/labs-educates-showcase-files:latest"
+      includePaths:
+        - /workshops/lab-virtual-cluster/workshop/**
+      newRootPath: workshops/lab-virtual-cluster
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      vcluster:
+        enabled: true

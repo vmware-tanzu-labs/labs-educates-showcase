@@ -1,0 +1,23 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: "lab-workshop-session"
+spec:
+  title: "Workshop Session"
+  description: "Overview of the containerized workshop environment."
+  workshop:
+    files:
+    - image:
+        url: "$(image_repository)/labs-educates-showcase-files:latest"
+      includePaths:
+        - /workshops/lab-workshop-session/workshop/**
+      newRootPath: workshops/lab-workshop-session
+  session:
+    namespaces:
+      security:
+        token:
+          enabled: false
+    applications:
+      terminal:
+        enabled: true
+        layout: split

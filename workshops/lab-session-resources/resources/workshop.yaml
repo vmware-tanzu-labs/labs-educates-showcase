@@ -1,0 +1,21 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: "lab-session-resources"
+spec:
+  title: "Session Resources"
+  description: "Overview of creating per session resources."
+  workshop:
+    files:
+    - image:
+        url: "$(image_repository)/labs-educates-showcase-files:latest"
+      includePaths:
+        - /workshops/lab-session-resources/workshop/**
+      newRootPath: workshops/lab-session-resources
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: split

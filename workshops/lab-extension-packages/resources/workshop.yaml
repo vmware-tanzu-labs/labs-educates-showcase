@@ -1,0 +1,21 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: "lab-extension-packages"
+spec:
+  title: "Extension Packages"
+  description: "Overview of adding additional extension packages."
+  workshop:
+    files:
+    - image:
+        url: "$(image_repository)/labs-educates-showcase-files:latest"
+      includePaths:
+        - /workshops/lab-extension-packages/workshop/**
+      newRootPath: workshops/lab-extension-packages
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: split

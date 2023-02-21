@@ -1,0 +1,27 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: "lab-docker-runtime"
+spec:
+  title: "Docker Runtime"
+  description: "Overview of deploying applications using docker."
+  workshop:
+    files:
+    - image:
+        url: "$(image_repository)/labs-educates-showcase-files:latest"
+      includePaths:
+        - /workshops/lab-docker-runtime/workshop/**
+      newRootPath: workshops/lab-docker-runtime
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: true
+      docker:
+        enabled: true
+      registry:
+        enabled: true

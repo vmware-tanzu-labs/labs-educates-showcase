@@ -1,0 +1,25 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: "lab-slide-presentations"
+spec:
+  title: "Slide Presentations"
+  description: "Overview of integrating slide presentations."
+  workshop:
+    files:
+    - image:
+        url: "$(image_repository)/labs-educates-showcase-files:latest"
+      includePaths:
+        - /workshops/lab-slide-presentations/workshop/**
+      newRootPath: workshops/lab-slide-presentations
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      slides:
+        enabled: true
+        reveal.js:
+          version: 3.X

@@ -1,0 +1,26 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: "lab-conda-environment"
+spec:
+  title: "Conda Environment"
+  description: "Overview of working on Python applications."
+  workshop:
+    image: conda-environment:*
+    files:
+    - image:
+        url: "$(image_repository)/labs-educates-showcase-files:latest"
+      includePaths:
+        - /workshops/lab-conda-environment/workshop/**
+      newRootPath: workshops/lab-conda-environment
+  session:
+    namespaces:
+      security:
+        token:
+          enabled: false
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      editor:
+        enabled: true
