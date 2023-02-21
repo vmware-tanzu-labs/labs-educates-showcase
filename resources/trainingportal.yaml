@@ -33,3 +33,6 @@ spec:
   - name: lab-shared-resources
   - name: lab-session-resources
   - name: lab-extension-packages
+  - name: lab-managed-services
+  - name: lab-ingress-proxy
+  - name: lab-git-repositories
