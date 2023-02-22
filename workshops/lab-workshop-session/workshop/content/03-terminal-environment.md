@@ -44,5 +44,5 @@ definition. Even where access to the Kubernetes cluster is enabled, what a user
 can do is constrained by role based access control (RBAC) as well as any
 security policies which are enforced.
 
-In this particular workshop no access is provided to the Kubernetes cluster
-API server from the workshop container.
+In this particular workshop no access token is provided for accessing the
+Kubernetes cluster API server from the workshop container.
