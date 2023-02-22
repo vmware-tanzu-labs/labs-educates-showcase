@@ -10,6 +10,7 @@ spec:
     - image:
         url: "$(image_repository)/labs-educates-showcase-files:latest"
       includePaths:
+        - /workshops/lab-docker-runtime/resources/**
         - /workshops/lab-docker-runtime/workshop/**
       newRootPath: workshops/lab-docker-runtime
   session:

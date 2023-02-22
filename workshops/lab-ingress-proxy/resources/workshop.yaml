@@ -10,6 +10,7 @@ spec:
     - image:
         url: "$(image_repository)/labs-educates-showcase-files:latest"
       includePaths:
+        - /workshops/lab-ingress-proxy/resources/**
         - /workshops/lab-ingress-proxy/workshop/**
       newRootPath: workshops/lab-ingress-proxy
   session:

@@ -11,6 +11,7 @@ spec:
     - image:
         url: "$(image_repository)/labs-educates-showcase-files:latest"
       includePaths:
+        - /workshops/lab-java-environment/resources/**
         - /workshops/lab-java-environment/workshop/**
       newRootPath: workshops/lab-java-environment
   session:

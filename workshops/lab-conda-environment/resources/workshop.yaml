@@ -11,6 +11,7 @@ spec:
     - image:
         url: "$(image_repository)/labs-educates-showcase-files:latest"
       includePaths:
+        - /workshops/lab-conda-environment/resources/**
         - /workshops/lab-conda-environment/workshop/**
       newRootPath: workshops/lab-conda-environment
   session:

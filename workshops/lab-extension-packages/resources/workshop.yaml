@@ -10,6 +10,7 @@ spec:
     - image:
         url: "$(image_repository)/labs-educates-showcase-files:latest"
       includePaths:
+        - /workshops/lab-extension-packages/resources/**
         - /workshops/lab-extension-packages/workshop/**
       newRootPath: workshops/lab-extension-packages
   session:
