@@ -8,6 +8,8 @@ modules:
     name: Clickable Actions
   03-terminal-environment:
     name: Terminal Environment
+  04-session-lifecycle:
+    name: Session Lifecycle
   99-workshop-summary:
     name: Workshop Summary
     exit_sign: Finish Workshop
