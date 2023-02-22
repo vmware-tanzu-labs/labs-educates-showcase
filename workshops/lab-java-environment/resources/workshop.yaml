@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Java Environment"
   description: "Overview of working on Java applications."
+  duration: 30m
   workshop:
     image: jdk17-environment:*
     files:

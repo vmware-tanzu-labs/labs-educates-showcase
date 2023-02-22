@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Virtual Machines"
   description: "Overview of provisioning virtual machines."
+  duration: 30m
   workshop:
     files:
     - image:

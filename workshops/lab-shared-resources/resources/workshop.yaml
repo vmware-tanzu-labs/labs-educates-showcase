@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Shared Resources"
   description: "Overview of pre-creating shared resources."
+  duration: 30m
   workshop:
     files:
     - image:

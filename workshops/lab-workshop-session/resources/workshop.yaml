@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Workshop Session"
   description: "Overview of the containerized workshop environment."
+  duration: 30m
   workshop:
     files:
     - image:

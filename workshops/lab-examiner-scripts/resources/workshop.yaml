@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Examiner Scripts"
   description: "Overview of using self check examinations."
+  duration: 30m
   workshop:
     files:
     - image:

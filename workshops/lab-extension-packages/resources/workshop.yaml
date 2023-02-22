@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Extension Packages"
   description: "Overview of adding additional extension packages."
+  duration: 30m
   workshop:
     files:
     - image:

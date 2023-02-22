@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Conda Environment"
   description: "Overview of working on Python applications."
+  duration: 30m
   workshop:
     image: conda-environment:*
     files:

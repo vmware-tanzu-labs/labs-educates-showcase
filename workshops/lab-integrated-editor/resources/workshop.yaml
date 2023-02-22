@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Integrated Editor"
   description: "Overview of integrated VS Code editor."
+  duration: 30m
   workshop:
     files:
     - image:

@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Session Resources"
   description: "Overview of creating per session resources."
+  duration: 30m
   workshop:
     files:
     - image:

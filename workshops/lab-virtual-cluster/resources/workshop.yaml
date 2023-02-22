@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Virtual Cluster"
   description: "Overview of optional virtual Kubernetes cluster."
+  duration: 30m
   workshop:
     files:
     - image:

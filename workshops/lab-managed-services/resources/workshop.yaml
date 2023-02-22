@@ -5,6 +5,7 @@ metadata:
 spec:
   title: "Managed Services"
   description: "Overview of running additional managed processes."
+  duration: 30m
   workshop:
     files:
     - image:
