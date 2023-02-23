@@ -5,6 +5,7 @@ this workshop can be viewed by clicking:
 name: Resource
 prefix: Workshop
 title: View workshop definition
+description: ""
 url: /files/resources/workshop.yaml
 ```
 

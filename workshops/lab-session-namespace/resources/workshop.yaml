@@ -11,15 +11,21 @@ spec:
     - image:
         url: "$(image_repository)/labs-educates-showcase-files:latest"
       includePaths:
+        - /workshops/lab-session-namespace/exercises/**
         - /workshops/lab-session-namespace/resources/**
         - /workshops/lab-session-namespace/workshop/**
       newRootPath: workshops/lab-session-namespace
   session:
     namespaces:
+      role: admin
       budget: medium
+      security:
+        policy: restricted
     applications:
       terminal:
         enabled: true
         layout: split
       console:
+        enabled: true
+      files:
         enabled: true
